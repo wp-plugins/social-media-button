@@ -25,7 +25,7 @@ Usages:
 
 * Now check the checkbox and give your social madia url that you want to show on your site front-end.
 
-If you still need help, [watch this youtube video](http://www.youtube.com/playlist?list=PL9GiQPpTzMv43u6EF14upPTPnG4fqShUv)
+If you still need help, [watch this youtube video](http://youtu.be/u0oHhnjM7ug)
 
 == Installation ==
 
