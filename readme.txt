@@ -35,7 +35,7 @@ After installation and activation the plugin.
 	<li>Youtube</li>
 	<li>Pinterest</li>
 	<li>GitHub</li>
-	<li><strong>New Icons from version 1.1.0</strong></li>
+	<strong>New Icons from version 1.1.0</strong>
 	<li>Codepen</li>
 	<li>digg</li>
 	<li>dribbble</li>
