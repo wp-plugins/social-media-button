@@ -322,22 +322,22 @@ class SMButtonsWidget extends WP_Widget {
 	    </p>
 		<!-- Show Icon Color: Checkbox -->
 	    <p>
-	    	<input type="text" class="icon_color" id="<?php echo $this->get_field_id( 'icon_color' ); ?>" name="<?php echo $this->get_field_name( 'icon_color' ); ?>" value="<?php echo $instance['icon_color']; ?>" />
+	    	<input type="text" class="icon_color" id="<?php echo $this->get_field_id( 'icon_color' ); ?>" name="<?php echo $this->get_field_name( 'icon_color' ); ?>" value="<?php echo $instance['icon_color']; ?>" data-default-color="#000000">
 	    	<label for="<?php echo $this->get_field_id( 'icon_color' ); ?>"><?php _e('Icon Color', 'smbuttons') ?></label>
 	    </p>
 		<!-- Show Icon Background Color: Checkbox -->
 	    <p>	    
-	    	<input type="text" class="icon_bg_color" id="<?php echo $this->get_field_id( 'icon_bg_color' ); ?>" name="<?php echo $this->get_field_name( 'icon_bg_color' ); ?>" value="<?php echo $instance['icon_bg_color']; ?>" />
+	    	<input type="text" class="icon_bg_color" id="<?php echo $this->get_field_id( 'icon_bg_color' ); ?>" name="<?php echo $this->get_field_name( 'icon_bg_color' ); ?>" value="<?php echo $instance['icon_bg_color']; ?>" data-default-color="#00fd00">
 	    	<label for="<?php echo $this->get_field_id( 'icon_bg_color' ); ?>"><?php _e('Icon Background Color', 'smbuttons') ?></label>
 	    </p>
 		<!-- Show Icon Color: Checkbox -->
 	    <p>
-	    	<input type="text" class="icon_hover_color" id="<?php echo $this->get_field_id( 'icon_hover_color' ); ?>" name="<?php echo $this->get_field_name( 'icon_hover_color' ); ?>" value="<?php echo $instance['icon_hover_color']; ?>" />
+	    	<input type="text" class="icon_hover_color" id="<?php echo $this->get_field_id( 'icon_hover_color' ); ?>" name="<?php echo $this->get_field_name( 'icon_hover_color' ); ?>" value="<?php echo $instance['icon_hover_color']; ?>" data-default-color="#dddddd">
 	    	<label for="<?php echo $this->get_field_id( 'icon_hover_color' ); ?>"><?php _e('Icon Color on Hover', 'smbuttons') ?></label>
 	    </p>
 		<!-- Show Icon Background Color: Checkbox -->
 	    <p>	    
-	    	<input type="text" class="icon_hover_bg_color" id="<?php echo $this->get_field_id( 'icon_hover_bg_color' ); ?>" name="<?php echo $this->get_field_name( 'icon_hover_bg_color' ); ?>" value="<?php echo $instance['icon_hover_bg_color']; ?>" />
+	    	<input type="text" class="icon_hover_bg_color" id="<?php echo $this->get_field_id( 'icon_hover_bg_color' ); ?>" name="<?php echo $this->get_field_name( 'icon_hover_bg_color' ); ?>" value="<?php echo $instance['icon_hover_bg_color']; ?>" data-default-color="#ff0000">
 	    	<label for="<?php echo $this->get_field_id( 'icon_hover_bg_color' ); ?>"><?php _e('Icon Background Color on Hover', 'smbuttons') ?></label>
 	    </p>
 	    <?php
