@@ -34,12 +34,11 @@ class SMButtonsWidget extends WP_Widget {
 	    $this->flickr 		=	$instance['flickr'];
 	    $this->foursquare 	=	$instance['foursquare'];
 	    $this->instagram 	=	$instance['instagram'];
-	    $this->pinterest 	=	$instance['pinterest'];
 	    $this->reddit 		=	$instance['reddit'];
 	    $this->vimeo 		=	$instance['vimeo'];
 	    $this->wordpress 	=	$instance['wordpress'];
 
-	    $this->email 	=	$instance['email'];
+	    $this->email 		=	$instance['email'];
 
 	    $this->icon_color 			=	$instance['icon_color'];
 	    $this->icon_hover_color 	=	$instance['icon_hover_color'];
@@ -49,8 +48,8 @@ class SMButtonsWidget extends WP_Widget {
 	   	//Display Sidebar
 	   	echo $before_widget;
 
-		if ( ! empty( $title ) )
-			echo $before_title . $title . $after_title;
+		if ( ! empty( $this->widget_title ) )
+			echo $before_title . $this->widget_title . $after_title;
 	    ?>
 	        <div class="widget-content">
 	        	<?php if ( !empty($this->fb_url) ): ?>
@@ -107,10 +106,6 @@ class SMButtonsWidget extends WP_Widget {
 
 	        	<?php if ( !empty($this->instagram) ): ?>
 	        		<a title="Instagram" target="_blank" href="<?php echo $this->instagram ?>"><i class="fa fa-instagram"></i></a>
-				<?php endif; ?>
-
-	        	<?php if ( !empty($this->pinterest) ): ?>
-	        		<a title="Pinterest" target="_blank" href="<?php echo $this->pinterest ?>"><i class="fa fa-pinterest"></i></a>
 				<?php endif; ?>
 
 	        	<?php if ( !empty($this->reddit) ): ?>
@@ -171,7 +166,6 @@ class SMButtonsWidget extends WP_Widget {
 	    $instance['flickr'] = esc_url_raw( $new_instance['flickr'] );
 	    $instance['foursquare'] = esc_url_raw( $new_instance['foursquare'] );
 	    $instance['instagram'] = esc_url_raw( $new_instance['instagram'] );
-	    $instance['pinterest'] = esc_url_raw( $new_instance['pinterest'] );
 	    $instance['reddit'] = esc_url_raw( $new_instance['reddit'] );
 	    $instance['vimeo'] = esc_url_raw( $new_instance['vimeo'] );
 	    $instance['wordpress'] = esc_url_raw( $new_instance['wordpress'] );
@@ -206,7 +200,6 @@ class SMButtonsWidget extends WP_Widget {
 	        'flickr' 				=> '',
 	        'foursquare' 			=> '',
 	        'instagram' 			=> '',
-	        'pinterest' 			=> '',
 	        'reddit' 				=> '',
 	        'vimeo' 				=> '',
 	        'wordpress' 			=> '',
@@ -294,11 +287,6 @@ class SMButtonsWidget extends WP_Widget {
 	    <p>
 	    	<label for="<?php echo $this->get_field_id( 'instagram' ); ?>"><?php _e('instagram', 'smbuttons') ?></label><br>
 	    	<input type="text" class="widefat" id="<?php echo $this->get_field_id( 'instagram' ); ?>" name="<?php echo $this->get_field_name( 'instagram' ); ?>" value="<?php echo $instance['instagram']; ?>" placeholder="http://instagram.com/username" />
-	    </p>
-		<!-- Show pinterest -->
-	    <p>
-	    	<label for="<?php echo $this->get_field_id( 'pinterest' ); ?>"><?php _e('pinterest', 'smbuttons') ?></label><br>
-	    	<input type="text" class="widefat" id="<?php echo $this->get_field_id( 'pinterest' ); ?>" name="<?php echo $this->get_field_name( 'pinterest' ); ?>" value="<?php echo $instance['pinterest']; ?>" placeholder="http://pinterest.com/username" />
 	    </p>
 		<!-- Show reddit -->
 	    <p>

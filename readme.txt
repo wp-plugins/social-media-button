@@ -1,9 +1,9 @@
 === Social Media Buttons ===
-Contributors: sayful
+Contributors: sayfulit, sayful
 Tags: widget, Facebook, Google Plus, LinkedIn, Twitter, Youtube, Pinterest, GitHub
-Requires at least: 3.0
+Requires at least: 3.5
 Tested up to: 4.0
-Stable tag: 1.0.0
+Stable tag: 1.1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -13,17 +13,41 @@ A WordPress plugin that displays various social media button at Wordpress widget
 
 A WordPress plugin that displays various social media button at Wordpress widgets area to find yourself.
 
-Usages:
+= Usages: =
 
-* Install the plugin. Go to 
+After installation and activation the plugin. 
 
-`Dashboard >> Appearance >> Widgets`
+<ul>
+	<li>Go to <strong>Dashboard >> Appearance >> Widgets</strong></li>
+	<li>Find a widget called <strong>Social Media Buttons</strong></li>
+	<li>Click on it and select at which widget area you want to use it.</li>
+	<li>Enter title of your widget. and</li>
+	<li>Enter social media link that you want to add</li>
+	<li>Also change icon color as your choice</li>
+</ul>
 
-* Find a widget called `Social Media Buttons`
-
-* Click on it and select at which widget area you want to use it.
-
-* Now check the checkbox and give your social madia url that you want to show on your site front-end.
+= Available Icons =
+<ul>
+	<li>Facebook</li>
+	<li>Google Plus</li>
+	<li>LinkedIn</li>
+	<li>Twitter</li>
+	<li>Youtube</li>
+	<li>Pinterest</li>
+	<li>GitHub</li>
+	<li><strong>New Icons from version 1.1.0</strong></li>
+	<li>Codepen</li>
+	<li>digg</li>
+	<li>dribbble</li>
+	<li>dropbox</li>
+	<li>flickr</li>
+	<li>foursquare</li>
+	<li>instagram</li>
+	<li>reddit</li>
+	<li>vimeo</li>
+	<li>wordpress</li>
+	<li>email</li>
+</ul>
 
 = If you still need help, watch this youtube video =
 
@@ -64,13 +88,8 @@ Do you have questions or issues with Social Media Buttons? [Ask for support here
 
 == Changelog ==
 
-= version 1.0 =
+= version 1.1.0 =
+* Added 11 new media buttons
+
+= version 1.0.0 =
 * Implementation of basic functionality.
-
-== CREDIT ==
-
-1. This plugin was developed by [Sayful Islam](http://sayful.net)
-
-== CONTACT ==
-
-[Sayful Islam](http://www.sayful.net)
